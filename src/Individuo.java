@@ -1,5 +1,5 @@
 public class Individuo {
-    private String nombre;
+    private final String nombre;
     private String apellido;
     private String sexo;
     private int edad;
