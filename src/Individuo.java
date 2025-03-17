@@ -15,6 +15,15 @@ public class Individuo {
         return nombre;
     }
 
+    public String getApellido() {
+        return apellido;
+    }
+
     public String getSexo() {
         return sexo;
     }
+
+    public int getEdad() {
+        return edad;
+    }
+}
