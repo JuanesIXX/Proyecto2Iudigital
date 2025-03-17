@@ -1,13 +1,13 @@
-public class Persona {
+public class Individuo {
     private String nombre;
     private String apellido;
-    private String genero;
+    private String sexo;
     private int edad;
 
-    public Persona(String nombre, String apellido, String genero, int edad) {
+    public Individuo(String nombre, String apellido, String sexo, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.genero = genero;
+        this.sexo = sexo;
         this.edad = edad;
     }
 
@@ -15,8 +15,12 @@ public class Persona {
         return nombre;
     }
 
-    public String getGenero() {
-        return genero;
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getSexo() {
+        return sexo;
     }
 
     public int getEdad() {
