@@ -1,6 +1,6 @@
 public class Individuo {
     private final String nombre;
-    private String apellido;
+    private final String apellido;
     private String sexo;
     private int edad;
 
@@ -15,15 +15,6 @@ public class Individuo {
         return nombre;
     }
 
-    public String getApellido() {
-        return apellido;
-    }
-
     public String getSexo() {
         return sexo;
     }
-
-    public int getEdad() {
-        return edad;
-    }
-}
